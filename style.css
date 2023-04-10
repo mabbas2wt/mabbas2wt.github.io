@@ -1,0 +1,155 @@
+@charset "utf-8";
+h1 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-variant: normal;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+h2 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-variant: normal;
+    font-weight: normal;
+    text-align: center;
+}
+h3 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1 nav a {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+body p img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+
+}
+
+
+@media (min-width:350px){
+body p img {
+    width: 350px;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+
+}
+.gridContainer {
+    width: 90%;
+    margin-left: auto;
+    float: none;
+    clear: none;
+}
+.nav_div {
+    width: 30%;
+}
+	
+	form {
+    border: thin solid white;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    background-color: #000000;
+    -webkit-box-shadow: 1px 0px #FFFFFF;
+    box-shadow: 1px 0px #FFFFFF;
+	}
+
+	div.formrow {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 7px 0px;
+	}
+	
+	div.formrow > * {
+		flex: 1 1 150px;
+	}
+	
+	legend {
+		background color: rgba(255,255,255,1.00)
+		color: white;
+		padding: 5px;
+	}
+	textarea {
+		margin-top: 10px;
+		height: 100px;
+		width: 95%;
+	}
+	form#custinfo {
+		display: flex;
+		flex-flow: row-wrap;
+	}
+	
+	form#custinfo > fieldset {
+		background-color: aliceblue;
+		border-radius: 20px;
+		flex: 1 1 300px;
+		font-size: 0.85em;
+		padding: 10px;
+		margin: 10px;
+	
+		}
+.menu_bar {
+    background-color: #FFFFFF;
+}
+
+}
+
+@media (min-width:769px){
+body p img {
+    width: 800px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.gridContainer {
+    width: 88.5%;
+    max-width: 975px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    clear: none;
+    float: none;
+}
+.nav_div {
+    width: 30%;
+}
+.menu_bar {
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+
+
+
+}
+.gridContainer {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    clear: none;
+}
+.fluid {
+    width: 100%;
+    display: block;
+    float: left;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    clear: both;
+}
+.nav_div {
+    float: left;
+}
