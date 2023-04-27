@@ -1,0 +1,10 @@
+@charset "utf-8";
+footer {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    border: thin solid #FFFFFF;
+    font-size: 16px;
+    ;
+    color: #FFFFFF;
+    background-color: #000000;
+    text-align: center;
+}
